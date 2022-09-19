@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Fonte original do projeto da nlw
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!--Configuração de conjunto de caracteres-->
+    <meta charset="UTF-8"> 
+    <!--
+        Atributos
+        name="viewport" -> conteúdo do navegador
+        content="width=device-width" -> largura do dispositivo
+        initial-scale=1.0 -> tela sem zoom
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NLW - eSports</title> <!--Título da página-->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img 
+            src="https://github.com/lyllyannyfranca.png" 
+            alt="Foto de Lyllyanny França">
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <h2>Meus jogos</h2>
+                <p>Os games que eu mais curto jogar!</p>
+                <ul class="games-list">
+
+                    <li>
+                        <a 
+                        target="_blank"
+                        href="https://www.twitch.tv/directory/game/The%20Legend%20of%20Zelda%3A%20Breath%20of%20the%20Wild">
+                            <img 
+                            src="https://static-cdn.jtvnw.net/ttv-boxart/110758_IGDB-188x250.jpg" 
+                            alt="Imagem do jogo The Legend of Zelda: Breath of the Wild">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a 
+                        target="_blank"
+                        href="https://www.twitch.tv/directory/game/Pok%C3%A9mon%20Unite">
+                            <img 
+                            src="https://static-cdn.jtvnw.net/ttv-boxart/518379_IGDB-188x250.jpg" 
+                            alt="Imagem do jogo Pokémon Unite">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a 
+                        target="_blank"
+                        href="https://www.twitch.tv/directory/game/Star%20Wars%20Battlefront%20II">
+                            <img 
+                            src="https://static-cdn.jtvnw.net/ttv-boxart/492546-188x250.jpg" 
+                            alt="Imagem do jogo Star Wars Battlefront 2">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a 
+                        target="_blank"
+                        href="https://www.twitch.tv/directory/game/League%20of%20Legends%3A%20Wild%20Rift">
+                            <img 
+                            src="https://static-cdn.jtvnw.net/ttv-boxart/514858-188x250.jpg" 
+                            alt="Imagem do jogo League of Legends: Wild Rift">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a 
+                        target="_blank"
+                        href="https://www.twitch.tv/directory/game/Fall%20Guys">
+                            <img 
+                            src="https://static-cdn.jtvnw.net/ttv-boxart/512980-188x250.jpg" 
+                            alt="Imagem do jogo Fall Guys">
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2>Canais e streamers</h2>
+                <p>Lista de canais e transmissões que não perco!</p>
+                <ul class="channel-list">
+                    
+                    <li>
+                        <a 
+                        target="_blank"
+                        href="https://www.twitch.tv/oultimosheikah">
+                            <img 
+                            src="https://static-cdn.jtvnw.net/jtv_user_pictures/b8e5b787-e8de-42f9-b459-57eb6b57eabb-profile_image-150x150.png" 
+                            alt="Imagem do Último Sheikah">
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a 
+                        target="_blank"
+                        href="https://www.twitch.tv/pokemonunitebrazil">
+                            <img 
+                            src="https://static-cdn.jtvnw.net/jtv_user_pictures/daa9aef0-2754-4f44-800a-9ea9fc1d7c1d-profile_image-150x150.png" 
+                            alt="Imagem de Pokemon UNITE Brazil">
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a 
+                        target="_blank"
+                        href="https://www.twitch.tv/cblol">
+                            <img 
+                            src="https://static-cdn.jtvnw.net/jtv_user_pictures/6527140f-6280-4b2a-988c-2e995489172b-profile_image-150x150.png" 
+                            alt="Imagem de CBLOL">
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2>Minhas redes</h2>
+                <p>Se conecte comigo agora mesmo!</p>
+                <ul class="social-list">
+                    
+                    <li>
+                        <button onclick="getDiscordTag()">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                            width="32" height="32"
+                            viewBox="0 0 48 48"
+                            style=" fill:#000000;"><path fill="#8c9eff" d="M40,12c0,0-4.585-3.588-10-4l-0.488,0.976C34.408,10.174,36.654,11.891,39,14c-4.045-2.065-8.039-4-15-4s-10.955,1.935-15,4c2.346-2.109,5.018-4.015,9.488-5.024L18,8c-5.681,0.537-10,4-10,4s-5.121,7.425-6,22c5.162,5.953,13,6,13,6l1.639-2.185C13.857,36.848,10.715,35.121,8,32c3.238,2.45,8.125,5,16,5s12.762-2.55,16-5c-2.715,3.121-5.857,4.848-8.639,5.815L33,40c0,0,7.838-0.047,13-6C45.121,19.425,40,12,40,12z M17.5,30c-1.933,0-3.5-1.791-3.5-4c0-2.209,1.567-4,3.5-4s3.5,1.791,3.5,4C21,28.209,19.433,30,17.5,30z M30.5,30c-1.933,0-3.5-1.791-3.5-4c0-2.209,1.567-4,3.5-4s3.5,1.791,3.5,4C34,28.209,32.433,30,30.5,30z"></path></svg>
+                        </button>
+                    </li>
+                        
+                    <li>
+                        <button onclick="getPlaystationId()">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                            width="32" height="32"
+                            viewBox="0 0 48 48"
+                            style=" fill:#000000;"><path fill="#1565C0" d="M40.633 29.026c-2.4-.806-4.802-1.07-7.041-.961-2.069.041-4.219.421-6.43 1.122l-.777.277 5.844 1.827 1.577-.565c0 0 .727-.258 1.491-.369.979-.143 1.975.104 1.975.104.557.132.854.265.961.533.104.32-.268.585-1.068.854l-1.426.541 5.566 1.741c1.916-.768 2.789-1.588 2.688-2.601C43.938 30.517 42.763 29.72 40.633 29.026zM22.001 28.094L22.001 25 17.12 26.566z"></path><path fill="#FF9800" d="M18.717 32.194l-1.364.485-1.249.451-1.335.53c0 0-1.203.362-2.236.429s-2.133-.269-2.133-.269c-.447-.165-.536-.531-.267-.797.267-.161.639-.375 1.066-.537l1.438-.529 2.561-.864-5.774-1.806-1.051.377-1.333.534c-2.026.853-3.093 1.759-3.039 2.559.105 1.17 1.44 2.023 3.84 2.667 3.115.84 6.28 1.014 9.513.527 0 0 2.543-.483 7.101-1.963L18.717 32.194zM28.316 35.196L25.605 36.222 25.605 40 30.929 37.929 33.797 36.91z"></path><g><path fill="#00BCD4" d="M22.001 28.094L17.121 26.566 16.106 26.893 9.425 29.288 15.199 31.094 22.001 28.8zM32.229 31.292l-5.844-1.827-7.668 2.729 5.739 1.795c.837-.272 1.735-.574 2.706-.917 1.051-.368 4.402-1.542 4.402-1.542L32.229 31.292zM35.738 32.39l-.547.207-6.875 2.6 5.48 1.714 6.142-2.181 1.065-.477c.107-.04.199-.081.301-.122L35.738 32.39z"></path></g><path fill="#F44336" d="M34.203,14.323c-1.123-1.515-3.094-2.751-6.017-3.764C24.539,9.378,21.472,8.52,19.001,8v29.978L25.604,40V15.057c0-0.673,0.057-1.126,0.336-1.408c0.281-0.39,0.564-0.444,0.957-0.278c0.953,0.278,1.404,1.127,1.404,2.528v10.228c2.137,1.014,4.049,1.123,5.451,0.06c1.462-1.014,2.249-2.813,2.249-5.509C36.001,17.868,35.439,15.733,34.203,14.323z"></path></svg>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button onclick="getNintendoFriendCode()">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                            width="32" height="32"
+                            viewBox="0 0 48 48"
+                            style=" fill:#000000;"><path fill="#efebe9" d="M22,7v34l-8,0c0,0-6-2-6-7c0-3-1-19,0-21s3-5,6-6C15.897,6.368,22,7,22,7z"></path><path fill="none" stroke="#ff3d00" stroke-miterlimit="10" stroke-width="2" d="M17,7h5v34l-6,0c-4.401,0-8-3.33-8-8.053v-17	C8,10.27,11.719,7,17,7z"></path><path fill="#ff3d00" d="M30,6h-5v36h5c5,0,10-4,10-9V16C40,10,35.658,6,30,6z M32.5,31c-1.934,0-3.5-1.566-3.5-3.5	c0-1.934,1.566-3.5,3.5-3.5c1.934,0,3.5,1.566,3.5,3.5C36,29.434,34.434,31,32.5,31z"></path><circle cx="15.5" cy="16.5" r="3.5" fill="#ff3d00" fill-rule="evenodd" clip-rule="evenodd"></circle></svg>
+                        </button>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
