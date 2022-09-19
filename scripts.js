@@ -1,8 +1,8 @@
 /*captura o caminho dos arquivos de efeitos sonoros 
 para cada Easter Egg colocado na página*/
-const pathOne = './.sounds/01.flac';
-const pathTwo = './.sounds/02.flac';
-const pathThree = './.sounds/03.mp3'
+const pathOne = './sounds/01.flac';
+const pathTwo = './sounds/02.flac';
+const pathThree = './sounds/03.mp3'
 
 // captura o primeiro li da ul que tiver a classe .games-list
 let easterEggOne = document.querySelector('.games-list').firstElementChild
